@@ -1,0 +1,68 @@
+/* --- Base Styles (Mobile First) --- */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.15em;
+  margin: 0;
+  padding: 15px; /* Padding for mobile view */
+}
+
+/* Make images scale */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center the profile image */
+.profile-image {
+  display: block;
+  margin: 0 auto 1em auto;
+  height: 240px;
+  width: auto;
+}
+
+#content {
+  /* Set a max-width for readability */
+  max-width: 31.25em;
+  /* Center the block itself */
+  margin: 1.15em auto 0 auto;
+}
+
+#content h1, #content h2, #content h3 {
+  font-family: "Myriad Pro", "Helvetica Neue", Helvetica, sans-serif;
+  margin: 0;
+  margin-top: 1.5em;
+  /* Center the headings */
+  text-align: left;
+}
+
+#content p, #content ul {
+  color: #333;
+  line-height: 1.38em;
+}
+
+/* Paragraphs immediately after a centered heading might look better centered too */
+h3 + p {
+    text-align: left;
+}
+
+/* Keep long paragraphs and the PGP key left-aligned for readability */
+p {
+    text-align: left;
+}
+
+.pgp-key {
+    word-wrap: break-word;
+    font-family: monospace;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+/* --- Desktop Styles --- */
+
+/* On wider screens, we just need a bit more top margin for aesthetics */
+@media (min-width: 900px) {
+  #content {
+    margin-top: 2.5em;
+  }
+}
