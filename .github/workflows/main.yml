@@ -23,3 +23,9 @@ jobs:
     - name: Sync files to S3
       run: |
         aws s3 sync ./ s3://tameravci.com --delete
+
+    - name: Invalidate CloudFront cache
+      run: |
+        aws cloudfront create-invalidation \
+          --distribution-id E2Z972T701QJ4W \
+          --paths "/*"
