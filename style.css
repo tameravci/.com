@@ -41,6 +41,10 @@ img {
   line-height: 1.38em;
 }
 
+li { 
+  margin: -10;
+}
+
 /* Paragraphs immediately after a centered heading might look better centered too */
 h3 + p {
     text-align: left;
