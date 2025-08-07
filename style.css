@@ -99,6 +99,11 @@ a:visited {
 
 .light-mode a {
   color: #0000EE;
+  text-decoration: underline;
+}
+
+.light-mode a:hover {
+  text-decoration: underline;
 }
 
 .light-mode a:visited {
