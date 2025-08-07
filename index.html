@@ -7,6 +7,7 @@
         <link rel="icon" type="image/x-icon" href="profile.jpg">
     </head>
     <body>
+        <div class="theme-switcher" onclick="toggleTheme()">🌙</div>
         <div id="content">
             <img src="profile.jpg" class="profile-image"><br>
 
@@ -58,5 +59,18 @@
             </div>
             </p>
         </div>
+        <script>
+            function toggleTheme() {
+                const body = document.body;
+                const themeSwitcher = document.querySelector('.theme-switcher');
+                body.classList.toggle('light-mode');
+
+                if (body.classList.contains('light-mode')) {
+                    themeSwitcher.textContent = '☀️';
+                } else {
+                    themeSwitcher.textContent = '🌙';
+                }
+            }
+        </script>
     </body>
 </html>
