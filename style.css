@@ -51,8 +51,18 @@ img {
     color: #333;
 }
 
-li { 
-  margin: -10;
+li {
+  margin: 0;
+}
+
+/* Project & experience descriptions — smaller and muted grey */
+.desc {
+  font-size: 0.85em;
+  color: #8a8a8a;
+}
+
+.light-mode .desc {
+  color: #666;
 }
 
 /* Paragraphs immediately after a centered heading might look better centered too */
