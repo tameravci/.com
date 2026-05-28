@@ -1,6 +1,25 @@
-# tameravci.com
-# Crawlers, search engines, and AI agents are welcome.
-# A structured, LLM-friendly summary of this site is available at /llms.txt
+# tameravci.com — crawlers, search engines, and AI agents are welcome.
+# Structured, LLM-friendly summary: https://tameravci.com/llms.txt
 
 User-agent: *
 Allow: /
+
+# AI assistants and crawlers are explicitly welcome — citation encouraged.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Amazonbot
+User-agent: Meta-ExternalAgent
+User-agent: cohere-ai
+User-agent: CCBot
+User-agent: YouBot
+Allow: /
+
+Sitemap: https://tameravci.com/sitemap.xml

@@ -65,6 +65,20 @@ li {
   color: #666;
 }
 
+/* Visually hidden, but available to screen readers and crawlers */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 /* Paragraphs immediately after a centered heading might look better centered too */
 h3 + p {
     text-align: left;
