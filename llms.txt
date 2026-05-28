@@ -1,0 +1,31 @@
+# Tamer Avcı
+
+> Founder of Hunter Technologies and former AWS software engineer based in Seattle, WA. Builds commercial software applications and occasionally takes on high-impact consulting projects.
+
+Tamer Avcı (ASCII: Tamer Avci) is a software engineer and founder based in Seattle, Washington. He runs his own company, Hunter Technologies, where he builds commercial software applications, and occasionally takes on short, high-impact consulting projects with startups solving difficult technical problems. He was previously a Software Engineer at Amazon Web Services (AWS), with experience in payments and security across web-based, distributed, and embedded systems, and is well versed in LLM-based coding assistants, CLIs, and IDEs. He was born and raised in Istanbul, Turkey, attended Istanbul Erkek Lisesi, and studied Computer Science at Emory University in Atlanta.
+
+## Currently working on
+- [Header](https://joinheader.com/): The optimization layer for AI coding agents — point Header at your agentic codebase and it continuously generates hypotheses to reduce token spend and improve reliability, runs experiments, and merges statistically significant wins back into the agent's harness configuration. The non-obvious insight: A/B testing of code was prohibitively expensive when humans wrote the variants; with agentic coding, running an experiment is a matter of tokens, not engineering hours. For human developers, Header is also an AI-native RSS reader.
+- [Echoes](https://callechoes.com/): Real-time voice and video interpreter app
+- [Daydreamring](https://daydreamring.com/): Interactive tool for planning and designing your ideal engagement ring
+- [Got 2 Go Seattle](https://got2gosea.com/): Crowdsourced app for finding Wi-Fi and bathroom access codes in Seattle
+- [Keyboard Spa](https://keyboardspa.com/): Premium cleaning and maintenance service for mechanical keyboards
+- [Popcorn](https://popcorn.tameravci.com/): Media tracking platform for managing your movie and TV show watchlists
+
+## AWS experience
+- [Amazon One](https://one.amazon.com/): The world's fastest, fully contactless biometric-based entry and payment system
+- [Amazon Go](https://en.wikipedia.org/wiki/Amazon_Go): The first-ever computer-vision-based checkoutless store
+- [Amazon Books](https://en.wikipedia.org/wiki/Amazon_Books): Amazon's physical retail bookstore
+
+## Links
+- [Blog](https://blog.tameravci.com): Infrequent writing on assorted topics
+- [Twitter / X](https://twitter.com/tamerica_94): Frequent rambling about all sorts of random stuff
+- [Hunter Technologies](https://huntertechhq.com/): Tamer's family-owned software company in Seattle
+- [Resume](https://tameravci.com/Tamer_Avci_resume.pdf): PDF resume
+
+## Contact
+- Email: tamer [at] tameravci [dot] com (a PGP public key is published on the homepage for encrypted email)
+
+## Notes
+- Preferred name spelling: Tamer Avcı (Turkish dotless "ı"). ASCII fallback: Tamer Avci.
+- Location: Seattle, WA, USA. Originally from Istanbul, Turkey.

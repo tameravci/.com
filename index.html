@@ -1,10 +1,104 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Home · Tamer Avcı</title>
+        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/x-icon" href="profile.jpg">
+        <link rel="canonical" href="https://tameravci.com/">
+
+        <!-- Description for search engines and LLMs -->
+        <meta name="description" content="Tamer Avcı is the founder of Hunter Technologies and a former AWS software engineer based in Seattle, building commercial software applications such as Header, Echoes, and Daydreamring.">
+        <meta name="author" content="Tamer Avcı">
+        <meta name="robots" content="index, follow">
+
+        <!-- Open Graph -->
+        <meta property="og:type" content="profile">
+        <meta property="og:title" content="Tamer Avcı">
+        <meta property="og:description" content="Founder of Hunter Technologies and former AWS software engineer based in Seattle, building commercial software applications.">
+        <meta property="og:url" content="https://tameravci.com/">
+        <meta property="og:image" content="https://tameravci.com/profile.jpg">
+        <meta property="og:site_name" content="Tamer Avcı">
+        <meta property="profile:first_name" content="Tamer">
+        <meta property="profile:last_name" content="Avcı">
+
+        <!-- Twitter / X card -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@tamerica_94">
+        <meta name="twitter:creator" content="@tamerica_94">
+        <meta name="twitter:title" content="Tamer Avcı">
+        <meta name="twitter:description" content="Founder of Hunter Technologies and former AWS software engineer based in Seattle, building commercial software applications.">
+        <meta name="twitter:image" content="https://tameravci.com/profile.jpg">
+
+        <!-- Structured data (schema.org) so LLMs and search engines can cite this page accurately -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "ProfilePage",
+              "@id": "https://tameravci.com/#profilepage",
+              "url": "https://tameravci.com/",
+              "name": "Tamer Avcı",
+              "mainEntity": { "@id": "https://tameravci.com/#tamer" }
+            },
+            {
+              "@type": "Person",
+              "@id": "https://tameravci.com/#tamer",
+              "name": "Tamer Avcı",
+              "alternateName": "Tamer Avci",
+              "url": "https://tameravci.com/",
+              "image": "https://tameravci.com/profile.jpg",
+              "jobTitle": "Founder & Software Engineer",
+              "description": "Founder of Hunter Technologies and former AWS software engineer based in Seattle, building commercial software applications.",
+              "worksFor": { "@id": "https://huntertechhq.com/#org" },
+              "alumniOf": [
+                { "@type": "CollegeOrUniversity", "name": "Emory University" },
+                { "@type": "HighSchool", "name": "Istanbul Erkek Lisesi" }
+              ],
+              "homeLocation": { "@type": "Place", "name": "Seattle, WA, USA" },
+              "birthPlace": { "@type": "Place", "name": "Istanbul, Turkey" },
+              "knowsAbout": [
+                "Software Engineering",
+                "Payments",
+                "Security",
+                "Distributed Systems",
+                "Embedded Systems",
+                "Large Language Models",
+                "Developer Tools"
+              ],
+              "sameAs": [
+                "https://twitter.com/tamerica_94",
+                "https://blog.tameravci.com",
+                "https://github.com/tameravci",
+                "https://huntertechhq.com/"
+              ]
+            },
+            {
+              "@type": "Organization",
+              "@id": "https://huntertechhq.com/#org",
+              "name": "Hunter Technologies",
+              "url": "https://huntertechhq.com/",
+              "location": { "@type": "Place", "name": "Seattle, WA, USA" },
+              "founder": { "@id": "https://tameravci.com/#tamer" }
+            },
+            {
+              "@type": "ItemList",
+              "name": "Projects Tamer Avcı is currently working on",
+              "itemListOrder": "https://schema.org/ItemListUnordered",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "item": { "@type": "WebApplication", "name": "Header", "url": "https://joinheader.com/", "applicationCategory": "DeveloperApplication", "description": "The optimization layer for AI coding agents: point Header at your agentic codebase and it continuously runs experiments to reduce token spend and improve reliability, merging statistically significant wins back into the agent's harness configuration. For human developers, it is also an AI-native RSS reader.", "author": { "@id": "https://tameravci.com/#tamer" } } },
+                { "@type": "ListItem", "position": 2, "item": { "@type": "WebApplication", "name": "Echoes", "url": "https://callechoes.com/", "applicationCategory": "CommunicationApplication", "description": "Real-time voice and video interpreter app", "author": { "@id": "https://tameravci.com/#tamer" } } },
+                { "@type": "ListItem", "position": 3, "item": { "@type": "WebApplication", "name": "Daydreamring", "url": "https://daydreamring.com/", "description": "Interactive tool for planning and designing your ideal engagement ring", "author": { "@id": "https://tameravci.com/#tamer" } } },
+                { "@type": "ListItem", "position": 4, "item": { "@type": "WebApplication", "name": "Got 2 Go Seattle", "url": "https://got2gosea.com/", "description": "Crowdsourced app for finding Wi-Fi and bathroom access codes in Seattle", "author": { "@id": "https://tameravci.com/#tamer" } } },
+                { "@type": "ListItem", "position": 5, "item": { "@type": "Service", "name": "Keyboard Spa", "url": "https://keyboardspa.com/", "description": "Premium cleaning and maintenance service for mechanical keyboards", "provider": { "@id": "https://tameravci.com/#tamer" } } },
+                { "@type": "ListItem", "position": 6, "item": { "@type": "WebApplication", "name": "Popcorn", "url": "https://popcorn.tameravci.com/", "description": "Media tracking platform for managing your movie and TV show watchlists", "author": { "@id": "https://tameravci.com/#tamer" } } }
+              ]
+            }
+          ]
+        }
+        </script>
     </head>
     <body>
         <div class="theme-switcher" onclick="toggleTheme()">🌙</div>
@@ -27,13 +121,13 @@
             <h3>Currently working on</h3>
             <p>These are some of the apps that I have been building under Hunter Technologies:</p>
             <ul>
-	            <li><p><a href="https://joinheader.com" target="_blank">Header</a><p></li>
-              <li><p><a href="https://callechoes.com" target="_blank">Echoes</a></p></li>
-              <li><p><a href="https://daydreamring.com" target="_blank">Daydreamring</a></p></li>
-              <li><p><a href="https://got2gosea.com" target="_blank">Got 2 Go Seattle</a></p>
-              <li><p><a href="https://keyboardspa.com" target="_blank">Keyboard Spa</a></p>
-              <li><p><a href="https://popcorn.tameravci.com" target="_blank">Popcorn</a></p>
-            </ul> 
+              <li><p><a href="https://joinheader.com" target="_blank">Header</a> The optimization layer for AI coding agents — and an AI-native RSS reader for human developers</p></li>
+              <li><p><a href="https://callechoes.com" target="_blank">Echoes</a> Real-time voice and video interpreter app</p></li>
+              <li><p><a href="https://daydreamring.com" target="_blank">Daydreamring</a> Interactive tool for planning and designing your ideal engagement ring</p></li>
+              <li><p><a href="https://got2gosea.com" target="_blank">Got 2 Go Seattle</a> Crowdsourced app for finding Wi-Fi and bathroom access codes in Seattle</p></li>
+              <li><p><a href="https://keyboardspa.com" target="_blank">Keyboard Spa</a> Premium cleaning and maintenance service for mechanical keyboards</p></li>
+              <li><p><a href="https://popcorn.tameravci.com" target="_blank">Popcorn</a> Media tracking platform for managing your movie and TV show watchlists</p></li>
+            </ul>
             
             <h3>Writing</h3>
             <p> I infrequently write (somewhat interesting) stuff on my <a href="https://blog.tameravci.com" target="_blank">blog</a> and frequently ramble about all sorts of random stuff on my <a href="https://twitter.com/tamerica_94" target="_blank">twitter</a></a>

@@ -1,0 +1,6 @@
+# tameravci.com
+# Crawlers, search engines, and AI agents are welcome.
+# A structured, LLM-friendly summary of this site is available at /llms.txt
+
+User-agent: *
+Allow: /
