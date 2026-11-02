@@ -2,15 +2,15 @@
 
 > Founder of Hunter Technologies and former AWS software engineer based in Seattle, WA. Builds commercial software applications and occasionally takes on high-impact consulting projects.
 
-Tamer Avci is a software engineer and founder based in Seattle, Washington. He runs his own company, Hunter Technologies, where he builds commercial software applications, and occasionally takes on short, high-impact consulting projects with startups solving difficult technical problems. He was previously a Software Engineer at Amazon Web Services (AWS), with experience in payments and security across web-based, distributed, and embedded systems, and is well versed in LLM-based coding assistants, CLIs, and IDEs. He was born and raised in Istanbul, Turkey, attended Istanbul Erkek Lisesi, and studied Computer Science at Emory University in Atlanta.
+Tamer Avci is a software engineer and founder based in Seattle, Washington. He runs his own company, Hunter Technologies, where he builds commercial software applications, and occasionally takes on short, high-impact consulting projects with startups solving difficult technical problems. He is well versed in LLM-based coding assistants, CLIs, and IDEs, and uses agentic coding to amplify his impact so he can focus on solving the right problem, aligning people, and mentoring junior engineers.
+
+He was previously a Software Engineer at Amazon Web Services (AWS), focused on payments and security across web-based distributed and embedded systems. He designed and built services that scaled cleanly and predictably and stayed extensible and maintainable for other engineers, and worked closely with product and business teams to turn vague requirements into clear technical solutions.
+
+He has a niche specialty in JavaCard applets and smart-card standards (GlobalPlatform, EMVCo, ISO 7816/14443, Mifare) for identity, transit, and payments. He was born and raised in Istanbul, Turkey, attended Istanbul Erkek Lisesi, and studied Computer Science at Emory University in Atlanta. Outside of work he tinkers with self-hosting and infrastructure, follows Seattle sports, plays basketball, and explores craft beers.
 
 ## Currently working on
-- [Header](https://joinheader.com/): The optimization layer for coding agents — point Header at your agentic codebase and it continuously generates hypotheses to reduce token spend and improve reliability, runs experiments, and merges statistically significant wins back into the agent's harness configuration. The non-obvious insight: A/B testing of code was prohibitively expensive when humans wrote the variants; with agentic coding, running an experiment is a matter of tokens, not engineering hours. For humans, Header is also an AI-native RSS reader.
-- [Echoes](https://callechoes.com/): Real-time voice and video interpreter app
-- [Daydreamring](https://daydreamring.com/): Interactive tool for planning and designing your ideal engagement ring
-- [Got 2 Go Seattle](https://got2gosea.com/): Crowdsourced app for finding Wi-Fi and bathroom access codes in Seattle
-- [Keyboard Spa](https://keyboardspa.com/): Premium cleaning and maintenance service for mechanical keyboards
-- [Popcorn](https://popcorn.tameravci.com/): Media tracking platform for managing your movie and TV show watchlists
+- [Header](https://joinheader.com/): Helps both people and their AI agents keep up with everything that matters. For agents, it is an optimization layer: point Header at your agentic codebase and it continuously generates hypotheses to reduce token spend and improve reliability, runs experiments, and merges statistically significant wins back into the agent's harness configuration. For humans, it is an AI-native RSS reader.
+- [Hunter Technologies](https://huntertechhq.com/): The other apps and services Tamer builds and offers.
 
 ## AWS experience
 - [Amazon One](https://one.amazon.com/): The world's fastest, fully contactless biometric-based entry and payment system
@@ -20,6 +20,8 @@ Tamer Avci is a software engineer and founder based in Seattle, Washington. He r
 ## Links
 - [Blog](https://blog.tameravci.com): Infrequent writing on assorted topics
 - [Twitter / X](https://twitter.com/tamerica_94): Frequent rambling about all sorts of random stuff
+- [GitHub](https://github.com/tameravci): Code and projects
+- [LinkedIn](https://www.linkedin.com/in/tameravci): Professional profile
 - [Hunter Technologies](https://huntertechhq.com/): Tamer's family-owned software company in Seattle
 - [Resume](https://tameravci.com/Tamer_Avci_resume.pdf): PDF resume
 
