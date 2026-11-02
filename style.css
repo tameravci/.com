@@ -137,3 +137,38 @@ a:visited {
         text-align: right;
     }
 }
+/* --- Social icons --- */
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.social a,
+.social a:visited {
+  color: #e0e0e0;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.social a:hover {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+.light-mode .social a,
+.light-mode .social a:visited {
+  color: #333;
+  text-decoration: none;
+}
+
+.light-mode .social a:hover {
+  color: #0000EE;
+}
+
+.social svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
